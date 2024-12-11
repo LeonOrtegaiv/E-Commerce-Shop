@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="UTF-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	    <title>E-Commerce Shop</title>
+
+	    <!-- Bootstrap CSS 5.0.2 -->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	    <!-- Google Fonts -->
+	    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+	    <!-- External CSS -->
+	    <link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+
+	<body>
+	    <!-- Navbar -->
+	    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+	        <div class="container">
+	            <a class="navbar-brand" href="#">E-Commerce Shop</a>
+	            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+	                <span class="navbar-toggler-icon"></span>
+	            </button>
+	            <div class="collapse navbar-collapse" id="navbarNav">
+	                <ul class="navbar-nav ms-auto">
+	                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="#">Products</a></li>
+	                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+	                </ul>
+	            </div>
+	        </div>
+	    </nav>
+
+	    <!-- Hero Section -->
+	    <section id="hero" class="text-center bg-primary text-white py-5">
+	        <div class="container">
+	            <h1>Welcome to E-Commerce Shop</h1>
+	            <p>Your one-stop shop for amazing deals!</p>
+	            <a href="#" class="btn btn-light">Shop Now</a>
+	        </div>
+	    </section>
+
+	    <!-- Carousel -->
+	    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	        <div class="carousel-indicators">
+	            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></button>
+	            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
+	            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
+	        </div>
+	        <div class="carousel-inner">
+	            <!-- Slide 1 -->
+	            <div class="carousel-item active">
+	                <img src="https://static3.webx.pk/files/68529/Images/61kfsu-cykl.-ac-sl1500--68529-0-180124040712888.jpg" class="d-block w-100" alt="Wireless Headphones">
+	                <div class="carousel-caption d-none d-md-block">
+	                    <h5>Wireless Headphones</h5>
+	                    <p>High-quality sound and wireless convenience.</p>
+	                </div>
+	            </div>
+	            <!-- Slide 2 -->
+	            <div class="carousel-item">
+	                <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/s10-case-unselect-gallery-1-202409_FMT_WHH?wid=752&hei=720&fmt=p-jpg&qlt=80&.v=1724620929305" class="d-block w-100" alt="Smartwatch">
+	                <div class="carousel-caption d-none d-md-block">
+	                    <h5>Smartwatch</h5>
+	                    <p>Track your fitness goals in style.</p>
+	                </div>
+	            </div>
+	            <!-- Slide 3 -->
+	            <div class="carousel-item">
+	                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2GWTOHXGEpDzybXGQq08glWO_RMWrtrAAw&s" class="d-block w-100" alt="Gaming Laptop">
+	                <div class="carousel-caption d-none d-md-block">
+	                    <h5>Gaming Laptop</h5>
+	                    <p>Unleash your gaming potential.</p>
+	                </div>
+	            </div>
+	        </div>
+	        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	            <span class="visually-hidden">Previous</span>
+	        </button>
+	        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	            <span class="visually-hidden">Next</span>
+	        </button>
+	    </div>
+
+
+	    <!-- Cards Section -->
+	    <section class="py-5">
+	        <div class="container">
+	            <h2 class="text-center mb-4">Our Featured Products</h2>
+	            <div class="row">
+	                <!-- Product 1 -->
+	                <div class="col-md-4">
+	                    <div class="card">
+	                        <img src="https://static3.webx.pk/files/68529/Images/61kfsu-cykl.-ac-sl1500--68529-0-180124040712888.jpg" class="card-img-top" alt="Wireless Headphones">
+	                        <div class="card-body">
+	                            <h5 class="card-title">Wireless Headphones</h5>
+	                            <p class="card-text">$49.99</p>
+	                            <a href="#" class="btn btn-primary">Buy Now</a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <!-- Product 2 -->
+	                <div class="col-md-4">
+	                    <div class="card">
+	                        <img src="https://store.storeimages.cdn-apple.com/8756/as-images.apple.com/is/s10-case-unselect-gallery-1-202409_FMT_WHH?wid=752&hei=720&fmt=p-jpg&qlt=80&.v=1724620929305" class="card-img-top" alt="Smartwatch">
+	                        <div class="card-body">
+	                            <h5 class="card-title">Smartwatch</h5>
+	                            <p class="card-text">$99.99</p>
+	                            <a href="#" class="btn btn-primary">Buy Now</a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <!-- Product 3 -->
+	                <div class="col-md-4">
+	                    <div class="card">
+	                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS2GWTOHXGEpDzybXGQq08glWO_RMWrtrAAw&s" class="card-img-top" alt="Gaming Laptop">
+	                        <div class="card-body">
+	                            <h5 class="card-title">Gaming Laptop</h5>
+	                            <p class="card-text">$1299.99</p>
+	                            <a href="#" class="btn btn-primary">Buy Now</a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <!-- Product 4 -->
+	                <div class="col-md-4 mt-4">
+	                    <div class="card">
+	                        <img src="https://assets.epicurious.com/photos/62741684ef40ea9d3866a0be/4:3/w_4443,h_3332,c_limit/breville-bambino-espresso-maker_HERO_050422_8449_VOG_Badge_final.jpg" class="card-img-top" alt="Coffee Maker">
+	                        <div class="card-body">
+	                            <h5 class="card-title">Coffee Maker</h5>
+	                            <p class="card-text">$39.99</p>
+	                            <a href="#" class="btn btn-primary">Buy Now</a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <!-- Product 5 -->
+	                <div class="col-md-4 mt-4">
+	                    <div class="card">
+	                        <img src="https://shop.mango.com/assets/rcs/pics/static/T7/fotos/S/77050593_01.jpg?imwidth=2048&imdensity=1&ts=1716545042619" class="card-img-top" alt="Sneakers">
+	                        <div class="card-body">
+	                            <h5 class="card-title">Sneakers</h5>
+	                            <p class="card-text">$59.99</p>
+	                            <a href="#" class="btn btn-primary">Buy Now</a>
+	                        </div>
+	                    </div>
+	                </div>
+	                <!-- Product 6 -->
+	                <div class="col-md-4 mt-4">
+	                    <div class="card">
+	                        <img src="https://images-cdn.ubuy.co.in/633ff668d5bfc656c91eef1a-bluetooth-speaker-60w80w-peak-booming.jpg" class="card-img-top" alt="Bluetooth Speaker">
+	                        <div class="card-body">
+	                            <h5 class="card-title">Bluetooth Speaker</h5>
+	                            <p class="card-text">$25.99</p>
+	                            <a href="#" class="btn btn-primary">Buy Now</a>
+	                        </div>
+	                    </div>
+	                </div>
+	            </div>
+	        </div>
+	    </section>
+
+
+
+
+	    <!-- Footer -->
+	    <footer class="bg-dark text-white text-center py-3">
+	        <p>&copy; 2024 E-Shop. All Rights Reserved.</p>
+	    </footer>
+
+	    <!-- Bootstrap JavaScript 5.0.2 -->
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
